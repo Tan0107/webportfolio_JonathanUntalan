@@ -19,3 +19,43 @@ nav a {
 	color: #D6D6D6!important;
 	padding: 15rem;
 } 
+
+/* === Profile Image === */
+.profile-img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Contact Form === */
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* === Optional Enhancements === */
+.contact-form .form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.contact-form .btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+/* === Section Styling (Optional) === */
+#contact h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#contact p {
+  color: #555;
+  font-size: 1.1rem;
+}
