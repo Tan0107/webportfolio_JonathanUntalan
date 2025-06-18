@@ -31,7 +31,7 @@
 <body>
 
   <!-- Navbar -->
-  <div id="start" class="vh-100 d-flex flex-column">
+ <section id="start" class="vh-100 d-flex flex-column">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
@@ -53,19 +53,20 @@
     </nav>
 
     <!-- Centered H1 -->
-    <div class="row">
-      <h1 class="text-md-start">
-        Join me on this creative coding journey let's bring ideas to life together!
-      </h1> 
-    </div>
-  </div>
+    <div class="container d-flex flex-grow-1 justify-content-center align-items-center">
+        <h1 class="text-center px-3">
+          Join me on this creative coding journey — let's bring ideas to life together!
+        </h1>
+      </div>
+     
+</section>
   <!-- Landing Section -->
  <section id="landing" class="py-5 bg-light vh-100">
   <div class="container">
     <div class="row align-items-center">
       
       <!-- Profile Image -->
-      <div class="col-md-5 text-center mb-4 mb-md-0">
+      <div class="col-md-5 text-center mb-4 mb-md-0" id="don">
         <img src="./images/don.jpg" alt="Jonathan Untalan" class="img-fluid shadow">
       </div>
 
@@ -86,11 +87,11 @@
     <h2>My Projects</h2>
     <p>Some of my recent work and future project placeholders.</p>
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4 d-flex justify-content-center">
 
       <!-- E-commerce API Documentation -->
       <div class="col">
-        <div class="card h-100">
+        <div class="card project-card h-100">
           <img src="./images/DocAPI.jpg" class="card-img-top" alt="E-commerce API">
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">E-commerce API Documentation</h5>
@@ -101,7 +102,7 @@
 
       <!-- Course Booking API Documentation -->
       <div class="col">
-        <div class="card h-100">
+        <div class="card project-card h-100">
           <img src="./images/CourseBAPI.png" class="card-img-top" alt="Course Booking API">
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Course Booking API Documentation</h5>
@@ -112,7 +113,7 @@
 
       <!-- Course Booking App -->
       <div class="col">
-        <div class="card h-100">
+        <div class="card project-card h-100">
           <img src="./images/booking.jpg" class="card-img-top" alt="Course Booking App">
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Course Booking App</h5>
@@ -123,7 +124,7 @@
 
       <!-- E-commerce App -->
       <div class="col">
-        <div class="card h-100">
+        <div class="card project-card h-100">
           <img src="./images/ecommerce.jpg" class="card-img-top" alt="E-commerce App">
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">E-commerce App</h5>
@@ -134,7 +135,7 @@
 
       <!-- Airline Booking System Mockup -->
       <div class="col">
-        <div class="card h-100">
+        <div class="card project-card h-100">
           <img src="./images/airline.jpg" class="card-img-top" alt="Airline System Mockup">
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Airline Booking System Mockup</h5>
@@ -145,7 +146,7 @@
 
       <!-- Airline Booking System Prototype -->
       <div class="col">
-        <div class="card h-100">
+        <div class="card project-card h-100">
           <img src="./images/airproto.png" class="card-img-top" alt="Airline System Prototype">
           <div class="card-body text-start">
             <h5 class="card-title fw-bold">Airline Booking System Prototype</h5>
@@ -156,7 +157,7 @@
 
       <!-- Placeholder for Future Project -->
       <div class="col">
-        <div class="card h-100 border-dashed">
+         <div class="card project-card h-100">
           <div class="card-body text-muted text-start">
             <h5 class="card-title fw-bold">[Future Project]</h5>
             <p class="card-text">Stay tuned! More exciting and innovative projects will be added soon.</p>
@@ -173,7 +174,8 @@
   <p>Explore the final project I developed during my short courses — a demonstration of the practical skills and web technologies I’ve learned through hands-on experience.</p>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
    <div class="col">
-    <div class="card h-100">
+
+    <div class="project-card h-100">
       <img src="./images/shortcourse1.jpg" class="card-img-top" alt="Airline System Prototype">
       <div class="card-body text-start">
         <h5 class="card-title fw-bold">Short Courses Capstone</h5>
@@ -184,7 +186,7 @@
   </div>
 
   <div class="col">
-    <div class="card h-100">
+    <div class="project-card h-100">
       <img src="./images/shortcourse2.jpg" class="card-img-top" alt="Airline System Prototype">
       <div class="card-body text-start">
         <h5 class="card-title fw-bold">Short Courses Capstone</h5>
@@ -195,7 +197,7 @@
   </div>
 
   <div class="col">
-    <div class="card h-100">
+    <div class="project-card h-100">
       <img src="./images/shortcourse3.jpg" class="card-img-top" alt="Airline System Prototype">
       <div class="card-body text-start">
         <h5 class="card-title fw-bold">Short Courses Capstone</h5>
@@ -210,11 +212,8 @@
 </div>
 
 
-
-
-
   <!-- Tools Section -->
-  <section id="tools" class="py-5 text-center bg-light">
+  <section id="tools" class="py-5 text-center bg-light vh-100">
   <div class="container">
     <h2>Tools I Use</h2>
     <p class="mb-4">These are the core tools and technologies I utilize to develop modern, scalable, and high-performance web applications.</p>
@@ -250,7 +249,7 @@
 
 
   <!-- Contact Section -->
-  <section id="contact" class="py-5 text-center">
+  <section id="contact" class="py-5 text-center vh-100">
     <div class="container">
       <h2>Contact Me</h2>
       <p>Let's get in touch!</p>

@@ -1,26 +1,35 @@
 
 #start {
-	background-color: #00313b!important;
-
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 nav a {
 	font-family: 'DM Sans', Roboto;
 	font-size: 20	px;
 	font-weight: 400;
-	color: #D6D6D6!important;
+	color: white!important;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
+
+#don img{
+ width: 100%;
+  max-width: 300px; /* or any size that fits your layout */
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
 
 #start h1{
 	font-family: 'Outfit';
 	font-size: 70px;
 	font-weight: 800;
-	color: #D6D6D6!important;
-	padding: 15rem;
+	color: white!important;
 } 
 
-/* === Profile Image === */
+
 .profile-img {
   max-width: 250px;
   width: 100%;
@@ -30,14 +39,12 @@ nav a {
   margin-right: auto;
 }
 
-/* === Contact Form === */
 .contact-form {
   max-width: 600px;
   width: 100%;
   padding: 20px;
 }
 
-/* === Optional Enhancements === */
 .contact-form .form-control {
   border-radius: 8px;
   padding: 10px;
@@ -49,7 +56,6 @@ nav a {
   font-weight: 500;
 }
 
-/* === Section Styling (Optional) === */
 #contact h2 {
   font-weight: 600;
   margin-bottom: 10px;
@@ -58,4 +64,46 @@ nav a {
 #contact p {
   color: #555;
   font-size: 1.1rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-card .card-body {
+  padding: 1.5rem;
+}
+
+.project-card .card-title {
+  font-size: 1.25rem;
+}
+
+.project-card .card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.project-card .btn {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
 }
