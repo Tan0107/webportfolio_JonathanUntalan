@@ -1,0 +1,21 @@
+
+#start {
+	background-color: #00313b!important;
+
+}
+
+nav a {
+	font-family: 'DM Sans', Roboto;
+	font-size: 20	px;
+	font-weight: 400;
+	color: #D6D6D6!important;
+
+}
+
+#start h1{
+	font-family: 'Outfit';
+	font-size: 70px;
+	font-weight: 800;
+	color: #D6D6D6!important;
+	padding: 15rem;
+} 
